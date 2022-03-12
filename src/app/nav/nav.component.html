@@ -1,0 +1,96 @@
+
+
+<!-- Start of Sticky Nav-->
+<div *ngIf="_router.url != '/dashboard'" class="uk-sticky uk-sticky-fixed" uk-sticky="" style="width:100%">
+  <div class="uk-navbar-container uk-nav-padding">
+    <!--Nav Container -->
+    <div class="uk-container uk-container-expand">
+      <nav class="uk-navbar uk-navbar-transparent" uk-navbar style="position: relative; z-index: 980;">
+
+        <div class="uk-navbar-left ">
+          <a class="uk-navbar-item uk-logo" routerLink="/"> <img alt="Royal Bank" src="/assets/images/royal-bank-logo.svg" width="100"> </a>
+        </div>
+        <div class="uk-navbar-right">
+          <!--View on Desktop-->
+          <div class="uk-navbar-item uk-visible@s" uk-scrollspy="target: > a; cls: uk-animation-slide-bottom-small; delay: 200">
+            <a class="uk-button uk-button-default uk-margin-small-right" routerLink="login"> Login &nbsp; <i class="fi fi-rr-sign-in-alt"></i> </a>
+            <a class="uk-button uk-button-primary" href="#open-account-modal" uk-toggle> Open Account &nbsp; <i class="fi fi-rr-bank"></i> </a>
+          </div>
+
+
+        <!--View on Mobile-->
+        <div class="uk-navbar-item uk-hidden@s" uk-scrollspy="target: > a; cls: uk-animation-slide-bottom-small; delay: 200">
+          <a class="uk-icon-button uk-margin-small-right" routerLink="login"> <i class="fi fi-rr-sign-in-alt"></i> </a>
+          <a class="uk-icon-button" href="#open-account-modal" uk-toggle> <i class="fi fi-rr-bank"></i> </a>
+        </div>
+
+
+
+        </div>
+      </nav>
+    </div>
+    <!--End of Nav Container -->
+  </div>
+</div>
+<!-- End of Sticky Nav-->
+
+
+<!-- This is the modal with the default close button -->
+<div id="open-account-modal" uk-modal>
+  <div class="uk-modal-dialog uk-modal-body">
+      <button class="uk-modal-close-default" type="button" uk-close></button>
+      <h5 class="uk-text-center">Open A Royal Bank Account</h5>
+
+      <div class="uk-child-width-expand@s uk-grid-match" uk-grid>
+        <a href="register/royal-basic">
+          <div>
+            <div class="uk-card uk-card-default uk-padding-small">
+
+              <!--Inside Grid-->
+              <div class="uk-grid-match uk-grid-small  " uk-grid>
+                <div class="uk-width-1-4 ">
+
+                        <div class="light-bg">  <i class="fi fi-rr-user"></i> </div>
+
+                </div>
+
+                <div class="uk-width-3-4 ">
+                  <span class="uk-text-bold uk-text-small"> Open a Personal Bank Account for free. </span>
+                </div>
+              </div>
+
+
+
+            </div>
+        </div>
+      </a>
+
+      <a href="register/royal-corporate">
+        <div class="">
+            <div class="uk-card uk-card-default uk-padding-small">
+
+             <!--Inside Grid-->
+             <div class="uk-grid-match uk-grid-small  " uk-grid>
+
+              <div class="uk-width-1-4 ">
+
+                      <div class="light-bg">  <i class="fi fi-rr-briefcase"></i> </div>
+
+              </div>
+
+              <div class="uk-width-3-4 ">
+                <span class="uk-text-bold uk-text-small"> Open a Corporate Bank Account for free. </span>
+              </div>
+            </div>
+
+            </div>
+        </div>
+      </a>
+
+      </div>
+
+
+
+  </div>
+</div>
+

@@ -1,0 +1,253 @@
+hr, .uk-hr {
+  margin:2px;
+}
+
+.light-bg{
+  background-color: #E5E2F3;
+
+  border-radius: 10px;
+  height:50px;
+  width: 50px;
+  display: grid;
+  align-items: center;
+  text-align: center;
+
+}
+
+.sidebar-left {
+    background-color: #eef4f9;
+    position: fixed;
+    top: 80px;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    /* padding: 10px 0px 20px 50px; */
+    color: #000000;
+    overflow: auto;
+}
+
+.sidebar-logo{
+    padding: 40px;
+    top: 40;
+    text-align: center;
+    position: relative;
+}
+
+.main-column{
+    height: 100%;
+    overflow: auto;
+}
+
+.nav-icon{
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+}
+
+.sidebar-left {
+  background-color: rgba(255, 255, 255, 0.5);
+  position: fixed;
+  top: 80px;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  /* padding: 10px 0px 20px 50px; */
+  color: #000000;
+  overflow: auto;
+}
+
+.sidebar-logo{
+  padding: 20px;
+  top: 20;
+  text-align: center;
+  position: relative;
+}
+
+.main-column{
+  height: 100%;
+  overflow: auto;
+}
+
+.nav-icon {
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+}
+
+/*
+ * Default Button
+ */
+ .uk-button-default {
+  background-color: #E5E2F3;
+  color: #25214F;
+  border: none;
+}
+
+/* Hover */
+.uk-button-default:hover {
+  background-color: #25214F;
+  color: #fff;
+  border-color: none;
+}
+/* OnClick + Active */
+.uk-button-default:active,
+.uk-button-default.uk-active {
+  background-color: #25214F;
+  color: #fff;
+  border-color: none;
+}
+
+/*
+ * Primary
+ */
+ .uk-button-primary {
+  background-color: #25214F;
+  color: #fff;
+  border: 1px solid transparent;
+}
+/* Hover */
+.uk-button-primary:hover {
+  background-color: #E5E2F3;
+  color: #25214F;
+}
+/* OnClick + Active */
+.uk-button-primary:active,
+.uk-button-primary.uk-active {
+  background-color: #363073;
+  color: #fff;
+}
+
+/*
+ * Secondary
+ */
+ .uk-button-secondary {
+  background-color: #D9AC0B;
+  color: #fff;
+  border: none;
+}
+/* Hover */
+.uk-button-secondary:hover {
+  background-color: #F4C82A;
+  color: #fff;
+}
+/* OnClick + Active */
+.uk-button-secondary:active,
+.uk-button-secondary.uk-active {
+  background-color: #080808;
+  color: #fff;
+}
+
+
+a,
+.uk-link {
+  color: #25214F;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover,
+.uk-link:hover,
+.uk-link-toggle:hover .uk-link {
+  color: #D9AC0B;
+  text-decoration: none;
+}
+
+
+/* Headings
+ ========================================================================== */
+ h1,
+ .uk-h1,
+ h2,
+ .uk-h2,
+ h3,
+ .uk-h3,
+ h4,
+ .uk-h4,
+ h5,
+ .uk-h5,
+ h6,
+ .uk-h6,
+ .uk-heading-small,
+ .uk-heading-medium,
+ .uk-heading-large,
+ .uk-heading-xlarge,
+ .uk-heading-2xlarge {
+   margin: 0 0 20px 0;
+   font-family: "Mulish";
+   font-weight: 900;
+   color: #25214F;
+   text-transform: none;
+ }
+
+ /* Text Color modifiers
+ ========================================================================== */
+.uk-text-muted {
+  color: #999 !important;
+}
+.uk-text-emphasis {
+  color: #333 !important;
+}
+.uk-text-primary {
+  color: #25214F !important;
+}
+.uk-text-secondary {
+  color: #D9AC0B !important;
+}
+.uk-text-success {
+  color: #32d296 !important;
+}
+.uk-text-warning {
+  color: #faa05a !important;
+}
+.uk-text-danger {
+  color: #f0506e !important;
+}
+
+/*
+ * Default
+ * Note: Header and Footer are only implemented for the default style
+ */
+ .uk-card-default {
+  background-color: #f8f8f8;
+  color: #292929;
+  box-shadow: none;
+}
+.uk-card-default .uk-card-title {
+  color: #292929;
+}
+.uk-card-default.uk-card-hover:hover {
+  background-color: #fff;
+  box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
+}
+.uk-card-default .uk-card-header {
+  border-bottom: 1px solid #e5e5e5;
+}
+.uk-card-default .uk-card-footer {
+  border-top: 1px solid #e5e5e5;
+}
+
+/*
+ * Primary
+ */
+ .uk-card-primary {
+  background-color: #25214F;
+  color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+.uk-card-primary .uk-card-title {
+  color: #fff;
+}
+.uk-card-primary.uk-card-hover:hover {
+  background-color: #25214F;
+  box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
+}
+
+/**Form **/
+.uk-input,
+.uk-select,
+.uk-textarea {
+
+  border-radius: 5px;
+}

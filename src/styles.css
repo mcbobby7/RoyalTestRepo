@@ -1,0 +1,168 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('./assets/css/uicons-regular-rounded.css');
+@import url('./assets/css/uikit.css');
+@import url('./assets/css/royalbank.css');
+
+/* Mulish Font */
+
+@font-face {
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: local("Mulish"), url(./assets/fonts/mulish/Mulish-ExtraLight.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Mulish', sans-serif;
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: local("Mulish"), url(./assets/fonts/mulish/Mulish-ExtraLightItalic.ttf) format("truetype");
+}
+
+
+@font-face {
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local("Mulish"), url(./assets/fonts/mulish/Mulish-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Mulish', sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: local("Mulish"), url(./assets/fonts/mulish/Mulish-LightItalic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Mulish"), url(./assets/fonts/mulish/Mulish-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Mulish', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Mulish"), url(./assets/fonts/mulish/Mulish-Italic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("Mulish"), url(./assets/fonts/mulish/Mulish-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Mulish', sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: local("Mulish"), url(./assets/fonts/mulish/Mulish-MediumItalic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local("Mulish"), url(./assets/fonts/mulish/Mulish-SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Mulish', sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: local("Mulish"), url(./assets/fonts/mulish/Mulish-SemiBoldItalic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Mulish"), url(./assets/fonts/mulish/Mulish-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Mulish', sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Mulish"), url(./assets/fonts/mulish/Mulish-BoldItalic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local("Mulish"), url(./assets/fonts/mulish/Mulish-ExtraBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Mulish', sans-serif;
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: local("Mulish"), url(./assets/fonts/mulish/Mulish-ExtraBoldItalic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local("Mulish"), url(./assets/fonts/mulish/Mulish-Black.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Mulish', sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: local("Mulish"), url(./assets/fonts/mulish/Mulish-BlackItalic.ttf) format("truetype");
+}
+
+
+*{
+  font-family: 'Mulish';
+}
+
+.fi{
+  font-size: inherit !important;
+  vertical-align: middle;
+}
+
+
+body{
+  font-weight: 300 !important;
+  font-size: 15px;
+}
+
+.uk-button {
+  line-height: 42px;
+  font-weight: 600 !important;
+}
+
+.uk-card{
+  border-radius: 8px;
+}
+
+.vertical-center{
+  margin: auto;
+  vertical-align: middle;
+}
+
+
